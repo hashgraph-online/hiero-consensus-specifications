@@ -758,7 +758,7 @@ The recipient of this operation can approve the scheduled transaction by signing
 
 ##### **Large Message Handling**
 
-For messages exceeding 1KB in size, use the HCS-1 standard to store the content and reference it directly in the connection topic message using the Hashgraph Resource Locator (HRL) format defined in [definitions.md](../../definitions.md):
+For messages exceeding 1KB in size, use the HCS-1 standard to store the content and reference it directly in the connection topic message using the Hashgraph Resource Locator (HRL) format defined in [Definitions](../../definitions.md#hashgraph-resource-locator):
 
 ```json
 {
